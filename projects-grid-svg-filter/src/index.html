@@ -1,0 +1,37 @@
+<div class="navigation"></div>
+
+<svg>
+    <filter id="turbulence" x="-20%" y="-20%" width="140%" height="140%">
+        <feTurbulence baseFrequency="0" numOctaves="2" seed="1" id="feturbulence" type="fractalNoise"  result="NOISE"></feTurbulence>
+        <feDisplacementMap xChannelSelector="R" yChannelSelector="G" in="SourceGraphic" in2="NOISE" scale="30"></feDisplacementMap>
+    </filter>
+</svg>
+
+<div class="projects-scroll">
+    <div class="projects">
+        <div class="project">
+            <div class="project__content">
+                <h2>Cedarian</h2>
+                <img src="https://assets.codepen.io/2479807/grid-photo-1.jpg" />
+            </div>
+        </div>
+        <div class="project">
+            <div class="project__content">
+                <h2>Gargoyle</h2>
+                <img src="https://assets.codepen.io/2479807/grid-photo-2.jpg" />
+            </div>
+        </div>
+        <div class="project">
+            <div class="project__content">
+                <h2>Incognito</h2>
+                <img src="https://assets.codepen.io/2479807/grid-photo-3.jpg" />
+            </div>
+        </div>
+        <div class="project">
+            <div class="project__content">
+                <h2>Serendipity</h2>
+                <img src="https://assets.codepen.io/2479807/grid-photo-4.jpg" />
+            </div>
+        </div>
+    </div>
+</div>
